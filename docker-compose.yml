@@ -1,10 +1,10 @@
 version: '3'
 services:
   node-app:
-    container_name: node-app-container
+    # container_name: node-app-container
     image: ahmedmannaa/docker-node
-    ports:
-      - 3000:3000
+    # ports:
+    #   - 3000:3000
     depends_on:
       - mongo
       - mongo-express
